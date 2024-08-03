@@ -1,6 +1,7 @@
 **Build-personal-portfolio** 🚀
 
 **Project Description** 📝
+
 Welcome to my portfolio website! This project is a detailed display of my web development skills, experiences, and achievements. It holds the code and resources for my personal portfolio website, featuring a range of projects, case studies, and blog posts that illustrate my web development expertise. The portfolio is crafted to give an overview of my professional path, highlighting my successes and showcasing my skills.
 This project serves as a guide for developers, contributors, and users to understand the architecture, implementation details, and usage for the project. This project is built by html, css and Javascript. Trough creating this repository, users will learn the html,css and Javascript that how style and get functions to a webpage.
 This project has four sections:
@@ -89,15 +90,20 @@ Masoma Rezaie.
 - LinkedIn: [Miss Masoma](https://www.linkedin.com/in/miss-masoma-99b85522a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Email: [Masoma Rezaie](masom.rezaie135@gmail.com)
 
+
 ## Contributing 🤝
 Design Idea By UX/UI Team:
+
 Parwana Hassani👩‍💻
+
 LinkedIn: [(https://www.linkedin.com/in/parwana-hassani-2b725b31b/?trk=opento_sprofile_goalscard)]
 
 Zahra SADAT👩‍💻
+
 LinkedIn: [(https://www.linkedin.com/in/zahra-sadat-42340a310)]
 
 Muzhgan Alizada👩‍💻
+
 LinkedIn: [(https://www.linkedin.com/in/muzhgan-alizada-314a72310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)]
 
 For contribution you can create a pull request and mention me there.Thank you.
