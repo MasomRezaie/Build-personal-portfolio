@@ -1024,3 +1024,33 @@ form textarea {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     background-color: #373d41;
   }
+
+  .contact {
+    padding: 60px 32px;
+    background-color: #373d41;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .contact-text h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 37px;
+  }
+
+  .contact-space {
+    font-size: 24px;
+    line-height: 29.05px;
+    margin-bottom: 46px;
+    font-weight: 400;
+  }
+
+  .contact-form form input,
+  form textarea {
+    width: 100%;
+    height: 50px;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-radius: 8px 15px 8px 15px;
+  }
