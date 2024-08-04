@@ -30,3 +30,15 @@ const skills = {
     { name: 'Responsive Web Design (HTML, CSS)', img: './asset/Screenshot (807).png', link: 'https://www.freecodecamp.org/certification/fawaMuhibzada/javascript-algorithms-and-data-structures-v8' },
   ],
 };
+
+aboutContent.innerHTML = `
+  <div class="about-text">
+    <h2>About <span>Me</span></h2>
+    <h4>Web Develo<span>pe</span>r</h4>
+    <p id="mypara">${skills.description}</p>
+    <br>
+    <ul>
+      <li class="skill-text"><span >Skills: </span>${skills.tools.join(', ')}</li>
+      <li class="skill-text"><span>Languages: </span>${skills.language.join(', ')}</li>
+    </ul>
+  </div>
