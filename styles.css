@@ -895,3 +895,29 @@ form textarea {
     font-size: 23px;
   }
 }
+
+@media (max-width: 393px) {
+  .nav-menu {
+    border: 1px solid #fff;
+    border-top: none;
+    background-color: #373d41;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .nav-tem {
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    padding: 25px 211px 25px 90px;
+  }
+
+  .one {
+    padding: 6px 32px;
+    font-weight: 700;
+    border-radius: 8px 15px 8px 20px;
+    background: rgba(85, 165, 215, 1);
+    width: 140px;
+    height: 48.2px;
+    margin-bottom: 58px;
+    font-size: 32px;
+  }
