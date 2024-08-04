@@ -632,3 +632,19 @@ form textarea {
     text-align: left;
     margin-right: 50px;
   }
+
+  .nav-link:hover {
+    color: #85b4ff;
+  }
+
+  .nav-tem {
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    padding: 25px 211px 25px 90px;
+  }
+
+  .bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+  }
