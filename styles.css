@@ -727,3 +727,32 @@ form textarea {
     width: 30px;
     margin: 0 30px 46px 0;
   }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid #fff;
+    border-top: none;
+    background-color: #373d41;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .about {
+    margin: 0;
+    border-radius: 0;
+    padding: 30px 60px;
+    display: flex;
+    background-color: #373d41;
+    flex-direction: column;
+  }
