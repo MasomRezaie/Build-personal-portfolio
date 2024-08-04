@@ -34,3 +34,19 @@ span {
 li {
   list-style: none;
 }
+
+.navbar {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  margin: 0;
+}
+
+#noBr {
+  border-bottom: none;
+}
