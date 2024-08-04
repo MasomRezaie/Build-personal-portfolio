@@ -947,3 +947,32 @@ form textarea {
     width: 250px;
     margin-bottom: 149px;
   }
+
+  .media-text {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+
+  .about-img img {
+    width: 331px;
+    height: 223px;
+  }
+
+  .modal-body img {
+    margin-bottom: 30px;
+    border-radius: 15px 20px 15px 20px;
+  }
+
+  .proj-img img {
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    height: 170px;
+  }
+
+  .contact-icons a img {
+    height: 30px;
+    width: 30px;
+    margin: 0 30px 46px 0;
+  }
