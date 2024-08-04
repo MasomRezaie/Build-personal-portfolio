@@ -661,3 +661,44 @@ form textarea {
   .humburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  .home-text {
+    margin-top: 210px;
+  }
+
+  .one {
+    padding: 6px 32px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 8px 15px 8px 20px;
+    background: #55a5d7;
+    width: 140px;
+    height: 48.2px;
+    margin-bottom: 51.72px;
+  }
+
+  .home {
+    border-radius: 0;
+    height: auto;
+  }
+
+  .about-img img {
+    width: 300px;
+    height: 223px;
+  }
+
+  .home-text h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 40px;
+    line-height: 31.47px;
+  }
+
+  .home-text-p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.5px;
+    width: 250px;
+    margin-bottom: 149px;
+  }
