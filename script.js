@@ -93,3 +93,26 @@ const projects = [
     liveLink: ' https://farwamuhibzada.github.io/Palindrome_Checker/',
     sourceLink: 'https://github.com/FarwaMuhibZada/Palindrome_Checker/',
   },
+  {
+    title: 'PokemonSearchApp',
+    shortDes: 'A web application for searching Pokémon details by name or ID using the PokéAPI',
+    longDes: `A web application for searching Pokémon details by name or ID using the PokéAPI Proxy provided by freeCodeCamp.
+    Search: Enter a Pokémon name or ID to retrieve detailed information.`,
+    img: './asset/pokimon.png',
+    technology: ['HTML', 'CSS', 'Javascript'],
+    liveLink: 'https://farwamuhibzada.github.io/Pokemon-Search-App/',
+    sourceLink: 'https://github.com/FarwaMuhibZada/Pokemon-Search-App',
+  },
+  {
+    title: 'survey_Form',
+    shortDes: ` a complete survey form applied html validation that
+    input reliable data from users.`,
+    longDes: `
+   create a complete survey form using HTML and CSS
+   applied some HTML form validation.
+   CSS style to make form more user friendly.`,
+    img: './asset/form.png',
+    technology: ['HTML', 'CSS'],
+    liveLink: 'https://farwamuhibzada.github.io/Pokemon-Search-App/',
+    sourceLink: 'https://github.com/FarwaMuhibZada/Pokemon-Search-App',
+  },
