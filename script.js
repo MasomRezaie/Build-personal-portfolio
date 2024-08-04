@@ -42,3 +42,12 @@ aboutContent.innerHTML = `
       <li class="skill-text"><span>Languages: </span>${skills.language.join(', ')}</li>
     </ul>
   </div>
+   <div class="about-img">
+    ${skills.certification.map((certificate) => `
+      <h2>${certificate.name}</h2>
+      <br>
+      <a href='${certificate.link}' target="_blank">
+        <img src='${certificate.img}' alt='certificate picture'>
+      </a>`).join('')}
+  </div>
+`;
