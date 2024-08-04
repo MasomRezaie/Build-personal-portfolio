@@ -50,3 +50,18 @@ li {
 #noBr {
   border-bottom: none;
 }
+
+.nav-branding {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 15px 333px 14px 90px;
+}
+
+.nav-link {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin-right: 50px;
+}
