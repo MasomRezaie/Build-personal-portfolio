@@ -174,3 +174,11 @@ const showModal = (index) => {
     <button class="btn" data-index="${index}">See More</button>
   </div>
   </div>`).join('');
+
+  // Attach event listeners to dynamically created buttons
+document.querySelectorAll('.btn').forEach((button) => {
+  button.addEventListener('click', () => {
+    const index = button.getAttribute('data-index');
+    showModal(index);
+  });
+});
