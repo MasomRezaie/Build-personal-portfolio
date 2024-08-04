@@ -71,3 +71,14 @@ const projects = [
     liveLink: 'https://farwamuhibzada.github.io/Roman-Numerals-Converter/',
     sourceLink: 'https://github.com/FarwaMuhibZada/Roman-Numerals-Converter/',
   },
+  {
+    title: 'CashRegisterAppr',
+    shortDes: 'This application calculates and displays change due to a customer based on the price of an item ',
+    longDes: `
+    This project is a cash register application that calculates and displays change due to a customer based on the price of an item,
+    the cash provided,It showes different messages depending on the scenario.`,
+    img: './asset/cashregister.png',
+    technology: ['HTML', 'CSS', 'Javascript'],
+    liveLink: 'https://farwamuhibzada.github.io/Cash_Register_App/',
+    sourceLink: 'https://github.com/FarwaMuhibZada/Cash_Register_App',
+  },
