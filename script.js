@@ -186,3 +186,13 @@ document.querySelectorAll('.btn').forEach((button) => {
 // Contact form validation
 const contactForm = document.getElementById('form');
 const errorMsg = document.getElementById('error-msg');
+
+contactForm.addEventListener('submit', (event) => {
+  const email = document.getElementById('email').value;
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    errorMsg.classList.remove('hidden');
+  } else {
+    errorMsg.classList.add('hidden');
+  }
+});
