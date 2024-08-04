@@ -843,3 +843,28 @@ form textarea {
     top: 55%;
     transform: translate(-50%, -50%);
   }
+
+  #close {
+    font-size: 22px;
+    border: 2px solid #fff;
+    margin: 10px 10px 0 0;
+  }
+
+  .modal-body-p {
+    font-size: 20px;
+    margin: 0  5px 10px 5px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .modal-footer {
+    flex-wrap: wrap;
+  }
+
+  .modal-footer a {
+    margin-bottom: 15px;
+  }
+
+  .modal-body {
+    padding: 0;
+  }
