@@ -439,3 +439,78 @@ section {
   border-radius: 10px;
   background-color: #55a5d7b2;
 }
+
+.list li a {
+  display: block;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.modal-footer a:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+/* modal end */
+
+.content {
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.contact {
+  padding: 140px 120px;
+  background: rgb(27, 30, 32);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: center;
+  gap: 5rem;
+  border-radius: 70px 70px 0 0;
+  margin: 70px 20px 0;
+}
+
+.contact-text h4 {
+  color: #fff;
+  margin: 18px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-text h2 {
+  font-size: 3.75rem;
+  line-height: 1;
+  margin-bottom: 60px;
+}
+
+.contact-space {
+  color: #ccc;
+  font-size: 1.875rem;
+  line-height: 2.269rem;
+  padding-right: 10px;
+  margin-bottom: 128px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.list {
+  margin-bottom: 2.8rem;
+}
+
+.list li {
+  margin-bottom: 12px;
+}
+
+.list li a:hover {
+  color: #fff;
+}
+
+.contact-icons {
+  margin-top: 35px;
+}
