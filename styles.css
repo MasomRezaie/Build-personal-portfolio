@@ -756,3 +756,29 @@ form textarea {
     background-color: #373d41;
     flex-direction: column;
   }
+
+  .about-img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact {
+    padding: 60px 32px;
+    background-color: #373d41;
+    border-radius: 0;
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-text h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 37px;
+  }
+
+  .contact-space {
+    font-size: 24px;
+    line-height: 29.05px;
+    margin-bottom: 46px;
+    font-weight: 400;
+  }
