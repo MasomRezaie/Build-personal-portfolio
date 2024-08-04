@@ -1003,3 +1003,24 @@ form textarea {
   .skill-text {
     font-size: 23px;
   }
+
+  .project {
+    padding: 20px 15px 35px;
+    border-radius: 0;
+    background-color: #373d41;
+  }
+
+  .proj-img {
+    width: 280px;
+    border-radius: 12px;
+  }
+
+  .box {
+    padding: 20px 24px;
+    border-radius: 12px;
+  }
+
+  .project-content {
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    background-color: #373d41;
+  }
