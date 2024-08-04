@@ -155,3 +155,22 @@ const showModal = (index) => {
       <a href="${project.liveLink}">Live Link</a>
     </div>`;
   projectModal.classList.remove('hidden');
+
+   // Attach event listener to close button inside modal
+   document.getElementById('close').addEventListener('click', closeModals);
+  };
+
+  projectContent.innerHTML = projects.map((project, index) => `
+  <div class="box">
+    <div class="proj-img">
+      <img src="${project.img}">
+    </div>
+    <div class="proj-info">
+    <h3>${project.title}</h3>
+    <p>${project.shortDes}</p>
+    <ul class="langs">
+      <li class="lang-item">${project.technology.join(' / ')}</li>
+    </ul>
+    <button class="btn" data-index="${index}">See More</button>
+  </div>
+  </div>`).join('');
