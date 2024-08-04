@@ -648,3 +648,16 @@ form textarea {
     width: 30px;
     height: 4px;
   }
+
+  .humburger.active .bar:nth-child(2) {
+    display: block;
+    opacity: 0;
+  }
+
+  .humburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .humburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
