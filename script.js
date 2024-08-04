@@ -127,3 +127,17 @@ const projects = [
     liveLink: ': https://farwamuhibzada.github.io/tribute-page/',
     sourceLink: 'https://github.com/FarwaMuhibZada/tribute-page',
   },
+
+];
+
+const closeModals = () => {
+  projectModal.classList.add('hidden');
+};
+
+const showModal = (index) => {
+  const project = projects[index];
+  modalContent.innerHTML = `
+    <button id="close">&times;</button>
+    <div class="modal-header">
+      <h2>${project.title}</h2>
+    </div>
