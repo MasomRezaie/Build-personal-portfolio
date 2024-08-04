@@ -56,3 +56,18 @@ aboutContent.innerHTML = `
 const projectContent = document.getElementById('project-content');
 const projectModal = document.getElementById('myModal');
 const modalContent = document.getElementById('modal-content');
+
+// Project data
+const projects = [
+  {
+    title: 'RomanConverter',
+    shortDes: 'An application convert any number in to roman number fulfilling all requirements of FreeCodeCamp',
+    longDes: `
+    This application converts any number to a Roman numeral, fulfilling all requirements for a FreeCodeCamp project:
+    Includes an input element and a button.
+    Displays results in a div.`,
+    img: './asset/romanconverter.png',
+    technology: ['HTML', 'CSS', 'Javascript'],
+    liveLink: 'https://farwamuhibzada.github.io/Roman-Numerals-Converter/',
+    sourceLink: 'https://github.com/FarwaMuhibZada/Roman-Numerals-Converter/',
+  },
