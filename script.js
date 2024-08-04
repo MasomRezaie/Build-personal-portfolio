@@ -196,3 +196,13 @@ contactForm.addEventListener('submit', (event) => {
     errorMsg.classList.add('hidden');
   }
 });
+
+const formFields = ['name', 'email', 'message'];
+
+formFields.forEach((field) => {
+  const input = document.getElementById(field);
+  input.value = localStorage.getItem(field) || '';
+  input.addEventListener('input', () => {
+    localStorage.setItem(field, input.value);
+  });
+});
