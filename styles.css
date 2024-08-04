@@ -813,3 +813,33 @@ form textarea {
     background-color: #373d41;
     margin: 70px 0 70px 0;
   }
+
+  .proj-img {
+    width: 340px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+
+  .box {
+    padding: 20px 24px;
+    border-radius: 12px;
+  }
+
+  .project-content {
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    background-color: #373d41;
+    padding: 0 22px 20px 21px;
+  }
+
+  .modal-header {
+    text-align: left;
+    margin: 35px 0 30px 20px;
+  }
+
+  .modal {
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+  }
