@@ -150,3 +150,8 @@ const showModal = (index) => {
       <p>${project.longDes}</p>
       </div>
     </div>
+    <div class="modal-footer">
+      <a href="${project.sourceLink}">Source Code</a>
+      <a href="${project.liveLink}">Live Link</a>
+    </div>`;
+  projectModal.classList.remove('hidden');
