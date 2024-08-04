@@ -414,3 +414,28 @@ section {
 .modal-body h3 {
   margin: 10px 0;
 }
+
+.modal-body-p {
+  font-size: 24px;
+  margin: 0 50px 30px;
+  line-height: 1.5;
+}
+
+/* Modal Footer */
+.modal-footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-footer a {
+  display: inline-block;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #55a5d7b2;
+}
