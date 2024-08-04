@@ -309,3 +309,60 @@ section {
   color: #fff;
   margin-bottom: 15px;
 }
+
+.box p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+
+.langs {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.lang-item {
+  border: 2px solid #00a6ff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#margin-ul {
+  margin-left: 45px;
+}
+
+/* modal design */
+
+/* Modal */
+.modal {
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  overflow: auto;
+  z-index: 1000;
+}
+
+/* Modal Content */
+#modal-content {
+  margin: 10% auto;
+  padding: 10px;
+  border: 2px solid #55a5d7;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #373d41;
+}
