@@ -65,3 +65,21 @@ li {
   text-align: left;
   margin-right: 50px;
 }
+
+.nav-link:hover {
+  color: #85b4ff;
+}
+
+.nav-tem {
+  padding: 26px 0 26px 0;
+}
+
+.navList {
+  display: flex;
+}
+
+.humburger {
+  display: none;
+  cursor: pointer;
+  margin-right: 48px;
+}
