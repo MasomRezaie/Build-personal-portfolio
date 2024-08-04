@@ -229,3 +229,32 @@ section {
   margin: 20px 0 32px 0;
   font-family: 'Inria Serif', serif;
 }
+
+#mypara {
+  color: #ccc;
+  line-height: 2.421rem;
+  margin-bottom: 47px;
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+.skill-text {
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+
+.proj-img img {
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  height: 160px;
+  border: 20px solid #55a5d7;
+  border-radius: 10px 20px 10px 20px;
+}
+
+.project {
+  padding: 40px 20px 50px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 70px 20px;
+  border-radius: 40px 70px 40px 70px;
+}
