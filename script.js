@@ -82,3 +82,14 @@ const projects = [
     liveLink: 'https://farwamuhibzada.github.io/Cash_Register_App/',
     sourceLink: 'https://github.com/FarwaMuhibZada/Cash_Register_App',
   },
+  {
+    title: 'Palindrome Checker',
+    shortDes: 'Palindrome Checker App Check if a word or phrase can be read the same way forwards and backwards.',
+    longDes: `
+    This Palindrome Checker app verifies if a sentence reads the same forwards and backwards,
+    considering case, punctuation, and spacing. It alerts users with an empty input.`,
+    img: './asset/pal.PNG',
+    technology: ['HTML', 'CSS', 'Javascript'],
+    liveLink: ' https://farwamuhibzada.github.io/Palindrome_Checker/',
+    sourceLink: 'https://github.com/FarwaMuhibZada/Palindrome_Checker/',
+  },
