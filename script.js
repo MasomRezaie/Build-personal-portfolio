@@ -51,3 +51,8 @@ aboutContent.innerHTML = `
       </a>`).join('')}
   </div>
 `;
+
+// Project section contents
+const projectContent = document.getElementById('project-content');
+const projectModal = document.getElementById('myModal');
+const modalContent = document.getElementById('modal-content');
