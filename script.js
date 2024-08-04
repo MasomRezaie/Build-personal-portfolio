@@ -116,3 +116,14 @@ const projects = [
     liveLink: 'https://farwamuhibzada.github.io/Pokemon-Search-App/',
     sourceLink: 'https://github.com/FarwaMuhibZada/Pokemon-Search-App',
   },
+  {
+    title: 'tribute-page',
+    shortDes: 'The tribute page structure requires main section to all encompass content. ',
+    longDes: `
+    The tribute page structure requires a main section labeled "main" to encompass all content.
+    It includes a title section ("title") with descriptive text about the subject.`,
+    img: './asset/tribute_page.png',
+    technology: ['HTML', 'CSS'],
+    liveLink: ': https://farwamuhibzada.github.io/tribute-page/',
+    sourceLink: 'https://github.com/FarwaMuhibZada/tribute-page',
+  },
