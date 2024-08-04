@@ -258,3 +258,27 @@ section {
   margin: 70px 20px;
   border-radius: 40px 70px 40px 70px;
 }
+
+.proj-img {
+  width: 370px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.proj-info {
+  margin: 30px;
+  color: white;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.main-text p {
+  color: #ccc;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
