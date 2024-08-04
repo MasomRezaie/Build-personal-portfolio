@@ -11,3 +11,10 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   humburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
+
+navlinkEls.forEach((navlinkEl) => {
+  navlinkEl.addEventListener('click', () => {
+    document.querySelector('.borders')?.classList.remove('borders');
+    navlinkEl.classList.add('borders');
+  });
+});
