@@ -182,3 +182,7 @@ document.querySelectorAll('.btn').forEach((button) => {
     showModal(index);
   });
 });
+
+// Contact form validation
+const contactForm = document.getElementById('form');
+const errorMsg = document.getElementById('error-msg');
