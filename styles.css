@@ -868,3 +868,30 @@ form textarea {
   .modal-body {
     padding: 0;
   }
+
+  #modal-content {
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+
+  .about-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .about-text h4 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  #mypara {
+    color: #ccc;
+    line-height: 29.05px;
+    font-size: 23px;
+    font-weight: 300;
+  }
+
+  .skill-text {
+    font-size: 23px;
+  }
+}
