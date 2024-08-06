@@ -18,7 +18,7 @@ header {
   width: 100%;
   top: 0;
   right: 0;
-  background: #000;
+  background: hsl(202, 76%, 82%);
   z-index: 2000;
 }
 
@@ -111,9 +111,10 @@ section {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url(asset/31.jpg);
+  background-image: url(./So-You-Want-to-Be-a…-Web-Developer-R.jpg);
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position:center;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -143,7 +144,7 @@ section {
 }
 
 .home-text-p {
-  color: #0a0a0a;
+  color: #ffffff;
   max-width: 498px;
   margin-bottom: 89px;
   font-size: 35px;
@@ -155,11 +156,11 @@ section {
   font-size: 45px;
   margin-top: 89px;
   margin-bottom: 35px;
-  color: #55a5d7;
+  color: #fcfeff;
 }
 
 .home-text h3 {
-  color: #111010;
+  color: #ffffff;
   font-size: 45px;
   font-weight: 700;
   margin: 0 0 40px;
@@ -196,7 +197,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
-  background: rgba(0, 0, 0, 0.5);
+  background: hsl(202, 76%, 82%);
 }
 
 .about-img {
@@ -231,7 +232,7 @@ section {
 }
 
 #mypara {
-  color: #ccc;
+  color: #fffdfd;
   line-height: 2.421rem;
   margin-bottom: 47px;
   font-size: 2.25rem;

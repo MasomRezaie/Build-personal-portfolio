@@ -66,10 +66,10 @@ const projects = [
     This application converts any number to a Roman numeral, fulfilling all requirements for a FreeCodeCamp project:
     Includes an input element and a button.
     Displays results in a div.`,
-    img: './asset/romanconverter.png',
+    img: './assess/Roman Number.png',
     technology: ['HTML', 'CSS', 'Javascript'],
-    liveLink: 'https://farwamuhibzada.github.io/Roman-Numerals-Converter/',
-    sourceLink: 'https://github.com/FarwaMuhibZada/Roman-Numerals-Converter/',
+    liveLink: ' https://masomrezaie.github.io/build-a-roman-numeral-checked/',
+    sourceLink: 'https://github.com/MasomRezaie/build-a-roman-numeral-checked',
   },
   {
     title: 'CashRegisterAppr',
@@ -77,10 +77,10 @@ const projects = [
     longDes: `
     This project is a cash register application that calculates and displays change due to a customer based on the price of an item,
     the cash provided,It showes different messages depending on the scenario.`,
-    img: './asset/cashregister.png',
+    img: './assess/Cash Register.png',
     technology: ['HTML', 'CSS', 'Javascript'],
-    liveLink: 'https://farwamuhibzada.github.io/Cash_Register_App/',
-    sourceLink: 'https://github.com/FarwaMuhibZada/Cash_Register_App',
+    liveLink: 'https://masomrezaie.github.io/Build-a-Cash-Register/',
+    sourceLink: 'https://github.com/MasomRezaie/Build-a-Cash-Register',
   },
   {
     title: 'Palindrome Checker',
@@ -88,19 +88,19 @@ const projects = [
     longDes: `
     This Palindrome Checker app verifies if a sentence reads the same forwards and backwards,
     considering case, punctuation, and spacing. It alerts users with an empty input.`,
-    img: './asset/pal.PNG',
+    img: './assess/Plindrome Cheaker.PNG',
     technology: ['HTML', 'CSS', 'Javascript'],
     liveLink: ' https://farwamuhibzada.github.io/Palindrome_Checker/',
-    sourceLink: 'https://github.com/FarwaMuhibZada/Palindrome_Checker/',
+    sourceLink: 'https://github.com/MasomRezaie/Build-a-Palindrome-Checker/pull/1',
   },
   {
     title: 'PokemonSearchApp',
     shortDes: 'A web application for searching Pokémon details by name or ID using the PokéAPI',
     longDes: `A web application for searching Pokémon details by name or ID using the PokéAPI Proxy provided by freeCodeCamp.
     Search: Enter a Pokémon name or ID to retrieve detailed information.`,
-    img: './asset/pokimon.png',
+    img: './assess/Pokemon.PNG',
     technology: ['HTML', 'CSS', 'Javascript'],
-    liveLink: 'https://farwamuhibzada.github.io/Pokemon-Search-App/',
+    liveLink: 'https://masomrezaie.github.io/Build-a-Pokemon-Search-App/',
     sourceLink: 'https://github.com/FarwaMuhibZada/Pokemon-Search-App',
   },
   {
@@ -111,10 +111,10 @@ const projects = [
    create a complete survey form using HTML and CSS
    applied some HTML form validation.
    CSS style to make form more user friendly.`,
-    img: './asset/form.png',
+    img: './assess/Survey form.png',
     technology: ['HTML', 'CSS'],
-    liveLink: 'https://farwamuhibzada.github.io/Pokemon-Search-App/',
-    sourceLink: 'https://github.com/FarwaMuhibZada/Pokemon-Search-App',
+    liveLink: 'https://masomrezaie.github.io/Table/',
+    sourceLink: 'https://github.com/MasomRezaie/Table',
   },
   {
     title: 'tribute-page',
@@ -122,10 +122,10 @@ const projects = [
     longDes: `
     The tribute page structure requires a main section labeled "main" to encompass all content.
     It includes a title section ("title") with descriptive text about the subject.`,
-    img: './asset/tribute_page.png',
+    img: './assess/Tribute Page.jpg',
     technology: ['HTML', 'CSS'],
-    liveLink: ': https://farwamuhibzada.github.io/tribute-page/',
-    sourceLink: 'https://github.com/FarwaMuhibZada/tribute-page',
+    liveLink: 'https://masomrezaie.github.io/Tribute-page/',
+    sourceLink: 'https://github.com/MasomRezaie/Tribute-page',
   },
 
 ];
