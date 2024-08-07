@@ -18,7 +18,9 @@ header {
   width: 100%;
   top: 0;
   right: 0;
-  background: hsl(202, 76%, 82%);
+  /* ---------------------------------------------------color-------------------------------------------- */
+  background: hsla(160, 48%, 6%, 0.223);
+  box-shadow: 50px;
   z-index: 2000;
 }
 
@@ -111,7 +113,7 @@ section {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url(./So-You-Want-to-Be-a…-Web-Developer-R.jpg);
+  background-image: url(./assess/Sliders-for-Laura-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -144,7 +146,7 @@ section {
 }
 
 .home-text-p {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.819);
   max-width: 498px;
   margin-bottom: 89px;
   font-size: 35px;
@@ -198,7 +200,7 @@ section {
   align-items: center;
   gap: 2rem;
   /* 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 */
-  background: hsl(202, 76%, 82%);
+  background: hsla(161, 56%, 23%, 0.633);
 }
 
 .about-img {
@@ -257,7 +259,7 @@ section {
 .project {
   padding: 40px 20px 50px 20px;
   /* 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 */
-  background: rgba(0, 0, 0, 0.5);
+  background: hsla(161, 56%, 23%, 0.633);
   margin: 70px 20px;
   border-radius: 40px 70px 40px 70px;
 }
@@ -470,7 +472,7 @@ section {
 .contact {
   padding: 140px 120px;
   /* 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 */
-  background: rgba(0, 0, 0, 0.5);
+  background: hsla(161, 56%, 23%, 0.633);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -596,7 +598,7 @@ form textarea {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  background-color: #2a2a2a;
+  background-color: hsla(162, 75%, 13%, 0.799);
 }
 
 .last-text {
@@ -604,7 +606,7 @@ form textarea {
 }
 
 .last-text p {
-  color: #ccc;
+  color: #ffffff;
 }
 
 .top {
@@ -614,6 +616,7 @@ form textarea {
   background: #00a6ff;
 }
 
+/* -----------------------------------------------------MEDIA QUERY------------------------------------------------------------- */
 @media (max-width: 768px) {
   .humburger {
     display: block;
