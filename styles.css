@@ -18,9 +18,8 @@ header {
   width: 100%;
   top: 0;
   right: 0;
-  /* ---------------------------------------------------color-------------------------------------------- */
   background: hsla(160, 48%, 6%, 0.223);
-  box-shadow: 50px;
+  box-shadow: 20px;
   z-index: 2000;
 }
 
@@ -116,7 +115,7 @@ section {
   background-image: url(./assess/Sliders-for-Laura-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -162,7 +161,7 @@ section {
 }
 
 .home-text h3 {
-  color: #ffffff;
+  color: #fff;
   font-size: 45px;
   font-weight: 700;
   margin: 0 0 40px;
@@ -199,7 +198,6 @@ section {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
-  /* 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 */
   background: hsla(161, 56%, 23%, 0.633);
 }
 
@@ -258,7 +256,6 @@ section {
 
 .project {
   padding: 40px 20px 50px 20px;
-  /* 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 */
   background: hsla(161, 56%, 23%, 0.633);
   margin: 70px 20px;
   border-radius: 40px 70px 40px 70px;
@@ -471,7 +468,6 @@ section {
 
 .contact {
   padding: 140px 120px;
-  /* 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 */
   background: hsla(161, 56%, 23%, 0.633);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
