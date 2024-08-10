@@ -19,7 +19,6 @@ header {
   top: 0;
   right: 0;
   background: hsla(160, 48%, 6%, 0.223);
-  box-shadow: 20px;
   z-index: 2000;
 }
 
@@ -602,7 +601,7 @@ form textarea {
 }
 
 .last-text p {
-  color: #ffffff;
+  color: #fff;
 }
 
 .top {
