@@ -26,10 +26,10 @@ const skills = {
   tools: ['TimeManagement', 'GitHub', 'Git', 'CodeReviewer'],
   language: ['HTML', 'CSS', 'JavaScript'],
   certification: [
-    { name: 'JavaScript Algorithm & Data Structure', img: './asset/certificate_js.png', link: 'https://www.freecodecamp.org/certification/fawaMuhibzada/responsive-web-design' },
-    { name: 'Responsive Web Design (HTML, CSS)', img: './asset/Screenshot (807).png', link: 'https://www.freecodecamp.org/certification/fawaMuhibzada/javascript-algorithms-and-data-structures-v8' },
+    { name: 'JavaScript Algorithm & Data Structure', img: './assess/Javascrip.jpeg' },
+    { name: 'Responsive Web Design (HTML, CSS)', img: './assess/Responsive web design.jpeg' },
   ],
-};
+}
 
 aboutContent.innerHTML = `
   <div class="about-text">
@@ -90,7 +90,7 @@ const projects = [
     considering case, punctuation, and spacing. It alerts users with an empty input.`,
     img: './assess/Plindrome Cheaker.PNG',
     technology: ['HTML', 'CSS', 'Javascript'],
-    liveLink: ' https://farwamuhibzada.github.io/Palindrome_Checker/',
+    liveLink: '  https://masomrezaie.github.io/Build-a-Palindrome-Checker/',
     sourceLink: 'https://github.com/MasomRezaie/Build-a-Palindrome-Checker/pull/1',
   },
   {
