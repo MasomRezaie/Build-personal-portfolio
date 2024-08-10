@@ -11,7 +11,7 @@ This project has four sections:
 4. Contact US: Through this section others can contact with me.
 
 ## Demo 📸
-![Project Demo](./Capture.PNG)
+![Project Demo](./assess/Capture.PNG)
 
 **How to use this project?**
 
