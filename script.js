@@ -29,7 +29,7 @@ const skills = {
     { name: 'JavaScript Algorithm & Data Structure', img: './assess/Javascrip.jpeg' },
     { name: 'Responsive Web Design (HTML, CSS)', img: './assess/Responsive web design.jpeg' },
   ],
-}
+};
 
 aboutContent.innerHTML = `
   <div class="about-text">
@@ -156,11 +156,11 @@ const showModal = (index) => {
     </div>`;
   projectModal.classList.remove('hidden');
 
-   // Attach event listener to close button inside modal
-   document.getElementById('close').addEventListener('click', closeModals);
-  };
+  // Attach event listener to close button inside modal
+  document.getElementById('close').addEventListener('click', closeModals);
+};
 
-  projectContent.innerHTML = projects.map((project, index) => `
+projectContent.innerHTML = projects.map((project, index) => `
   <div class="box">
     <div class="proj-img">
       <img src="${project.img}">
@@ -175,7 +175,7 @@ const showModal = (index) => {
   </div>
   </div>`).join('');
 
-  // Attach event listeners to dynamically created buttons
+// Attach event listeners to dynamically created buttons
 document.querySelectorAll('.btn').forEach((button) => {
   button.addEventListener('click', () => {
     const index = button.getAttribute('data-index');
