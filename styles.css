@@ -365,7 +365,7 @@ section {
   max-width: 1000px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
-  background-color: #373d41;
+  background-color: rgb(84, 133, 114);
 }
 
 /* Close Button */
@@ -643,6 +643,7 @@ form textarea {
     margin: 0;
     border-bottom: 1px solid #fff;
     padding: 25px 211px 25px 90px;
+    background-color: rgb(84, 133, 114);
   }
 
   .bar {
@@ -755,7 +756,7 @@ form textarea {
     border-radius: 0;
     padding: 30px 60px;
     display: flex;
-    background-color: #373d41;
+    background-color: hsla(161, 56%, 23%, 0.633);
     flex-direction: column;
   }
 
@@ -766,7 +767,7 @@ form textarea {
 
   .contact {
     padding: 60px 32px;
-    background-color: #373d41;
+    background: hsla(161, 56%, 23%, 0.633);
     border-radius: 0;
     margin: 0;
     grid-template-columns: 1fr;
@@ -812,7 +813,7 @@ form textarea {
   .project {
     border-radius: 0;
     padding: 0;
-    background-color: #373d41;
+    background: hsla(161, 56%, 23%, 0.633);
     margin: 70px 0 70px 0;
   }
 
@@ -874,6 +875,7 @@ form textarea {
   #modal-content {
     padding-top: 0;
     padding-bottom: 5px;
+    background-color: rgb(84, 133, 114);
   }
 
   .about-text h2 {
@@ -911,6 +913,7 @@ form textarea {
     margin: 0;
     border-bottom: 1px solid #fff;
     padding: 25px 211px 25px 90px;
+    background-color: rgb(84, 133, 114);
   }
 
   .one {
@@ -1084,5 +1087,19 @@ form textarea {
     padding: 5px 5px;
     border-radius: 10px;
     margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 375px) {
+  .about {
+    background-color: hsla(161, 56%, 23%, 0.633);
+  }
+
+  .project {
+    background-color: hsla(161, 56%, 23%, 0.633);
+  }
+
+  .contact {
+    background-color: hsla(161, 56%, 23%, 0.633);
   }
 }
