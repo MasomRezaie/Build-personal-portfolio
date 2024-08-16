@@ -731,6 +731,11 @@ form textarea {
     margin: 0 30px 46px 0;
   }
 
+  #emails {
+    width: 40px;
+    height: 20px;
+  }
+
   .nav-menu {
     position: fixed;
     left: -100%;
