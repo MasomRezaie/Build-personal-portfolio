@@ -1073,6 +1073,10 @@ form textarea {
     top: 55%;
   }
 
+  #modal-content {
+    background-color: rgb(84, 133, 114);
+  }
+
   .modal-footer a {
     padding: 3px 27px;
     margin: 10px 0 15px;

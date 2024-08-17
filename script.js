@@ -26,7 +26,7 @@ const skills = {
   tools: ['TimeManagement', 'GitHub', 'Git', 'CodeReviewer'],
   language: ['HTML', 'CSS', 'JavaScript'],
   certification: [
-    { name: 'JavaScript Algorithm & Data Structure', img: './assess/Javascrip.jpeg' },
+    { name: 'Computer Trainer', img: './assess/Javascrip.jpeg' },
     { name: 'Responsive Web Design (HTML, CSS)', img: './assess/Responsive web design.jpeg' },
   ],
 };
