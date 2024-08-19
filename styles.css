@@ -828,6 +828,7 @@ form textarea {
   .box {
     padding: 20px 24px;
     border-radius: 12px;
+    background: rgba(85, 165, 215, 0.12);
   }
 
   .project-content {
@@ -1012,7 +1013,7 @@ form textarea {
   .project {
     padding: 20px 15px 35px;
     border-radius: 0;
-    background-color: #373d41;
+    background: rgba(85, 165, 215, 0.12);
   }
 
   .proj-img {
@@ -1023,11 +1024,12 @@ form textarea {
   .box {
     padding: 20px 24px;
     border-radius: 12px;
+    background-color: rgb(84, 133, 114);
   }
 
   .project-content {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-    background-color: #373d41;
+    background-color: #015c0e27;
   }
 
   .contact {
