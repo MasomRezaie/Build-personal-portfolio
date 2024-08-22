@@ -82,6 +82,11 @@ open the project on your IDE like vscode :
 
 cd># Build pesrsonal Portfoilo .
 
+# Figma Design link
+
+https://www.figma.com/design/BFSpaGK7qdPXPwpVFzVANk/Ptotofolio?node-id=0-1&t=UPmjNIP0eM2e3MgI-1
+
+
 ## Author 👩‍💻
 
 Masoma Rezaie.
